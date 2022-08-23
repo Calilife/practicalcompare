@@ -1,0 +1,88 @@
+{
+    "order": {
+        "id": "450789469",
+        "email": "bob.norman@hostmail.com",
+        "created_at": "2020-06-15T11:00:00-05:00",
+        "currency": "USD",
+        "updated_at": "2020-07-15T11:00:00-05:00",
+        "gateway": "authorize_net",
+        "browser_ip": "111.111.111.111",
+        "total_price": 319,
+        "total_discounts": 10,
+        "cart_token": "68778783ad298f1c80c3bafcddeea02f",
+        "device_id": "01234567-89ABCDEF-01234567-89ABCDEF",
+        "referring_site": "google.com",
+        "line_items": [
+            {
+                "price": 329,
+                "quantity": 1,
+                "title": "Apple Watch Series 3 GPS, 38mm Silver Aluminum Case with Fog Sport Band",
+                "product_id": "632910392",
+                "category": "electronics",
+                "brand": "apple",
+                "product_type": "physical"
+            }
+        ],
+        "discount_codes": [
+            {
+                "amount": 10,
+                "code": "TENOFF"
+            }
+        ],
+        "shipping_lines": [
+            {
+                "price": 0,
+                "title": "Free Shipping"
+            }
+        ],
+        "payment_details": [
+            {
+                "credit_card_bin": "414049",
+                "avs_result_code": "A",
+                "cvv_result_code": "M",
+                "credit_card_number": "XXXX-XXXX-XXXX-4242",
+                "credit_card_company": "Visa",
+                "stored_payment_created_at": "2019-08-21T12:50:00+00:00",
+                "stored_payment_updated_at": "2020-01-13T12:51:00+00:00"
+            }
+        ],
+        "customer": {
+            "email": "bob.norman@hostmail.com",
+            "verified_email": true,
+            "first_name": "Bob",
+            "last_name": "Norman",
+            "id": "207119551",
+            "created_at": "2019-08-21T13:36:50-04:00",
+            "account_type": "registered"
+        },
+        "billing_address": {
+            "first_name": "Bob",
+            "last_name": "Norman",
+            "address1": "Chestnut Street 92",
+            "country": "United States",
+            "country_code": "US",
+            "phone": "555-625-1199",
+            "city": "Louisville",
+            "province": "Kentucky",
+            "province_code": "KY",
+            "zip": "40202"
+        },
+        "shipping_address": {
+            "first_name": "Bob",
+            "last_name": "Norman",
+            "address1": "Chestnut Street 92",
+            "country": "United States",
+            "country_code": "US",
+            "phone": "555-625-1199",
+            "city": "Louisville",
+            "province": "Kentucky",
+            "province_code": "KY",
+            "zip": "40202"
+        },
+        "source": "desktop_web",
+        "client_details": {
+            "accept_language": "en-CA",
+            "user_agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)"
+        }
+    }
+}
